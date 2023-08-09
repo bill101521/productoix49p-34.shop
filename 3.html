@@ -1,98 +1,123 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
+    <link rel="icon" href="https://i.postimg.cc/2jZYqgMq/download.png" type="image/x-icon">
+
     <meta charset="UTF-8">
-    <title>Responder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperdible</title>
     <style>
         body {
-            background-color: #FFFFFF;
-            font-family: Arial Black, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
             padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
-
-        .pergunta {
-            font-size: 12vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #000000;
-            margin-bottom: 18vw; /* Espaçamento otimizado */
-            text-align: center;
+        h1, h2, p {
+            margin: 10px 0;
         }
-
-        .botoes {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8vw; /* Espaçamento otimizado */
-        }
-
-        .botao {
-            width: 40vw; /* Proporcionalmente igual em todos os dispositivos */
-            height: 12vw; /* Proporcionalmente igual em todos os dispositivos */
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #FF2D55;
+            color: #ffffff;
             border: none;
-            font-size: 9vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #FFFFFF;
+            border-radius: 5px;
             cursor: pointer;
         }
-
-        .botao.si {
-            background-color: #228B22;
-        }
-
-        .botao.no {
-            background-color: #FF0000;
-        }
-
-        .wmv {
-            font-size: 3vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #000000;
-            margin-top: 18vw; /* Espaçamento otimizado */
-            text-align: center;
-        }
-
-        .rodape {
-            margin-top: 6vw; /* Espaçamento otimizado */
-            font-size: 2vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #808080;
-            text-align: center;
+        .conteudo-escondido {
+            display: none;
         }
     </style>
 </head>
-
 <body>
-    <div class="pergunta">¿Piensas ver el siguiente video hasta el final?</div>
-    <div class="botoes">
-        <a href="https://reconstruccion.shop/2">
-            <button class="botao si">SÍ</button>
-        </a>
-        <a href="https://reconstruccion.shop/2">
-            <button class="botao no">NO</button>
-        </a>
+    <div class="container">
+        <h1>¿​Т​і​е​n​е​ѕ​ ​m​á​ѕ​ ​d​е​ ​1​8​ ​а​ñ​о​ѕ​?</h1>
+        
+        <!-- Botão de Redirecionamento -->
+        <button onclick="redirecionar()">      > Ѕ​Í <      </button>
+        <style>
+    .conteudo-item {
+        margin-bottom: 10px; /* Espaço abaixo do elemento */
+    }
+</style>
+         <!-- Botão de Redirecionamento -->
+        <button onclick="redirecionar()">Ν​О</button>
     </div>
-     <p style="text-align: center; font-color: gray;">CNPJ: 51.589.569/0001-75 - Cl. 20 #82 - 52, Fontibón, Bogotá, Cundinamarca, Colômbia</p>
-  </div><script type="text/javascript" src="script.js"></script>
-    <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Terminos de uso</a> | <a href="privacidade.html" class="text-gray">Política de Privacidad</a></div>
-          </div>
-        </div>
-      </div>
-    </header>
-  <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Sobre Nosotros</a> | <a href="privacidade.html" class="text-gray">Politica de Reembolso</a></div>
-          </div>
-        </div>
-      </div>
-    </header>
-  <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Hable con Nosotros</a> | <a href="privacidade.html" class="text-gray">Politica de Envios</a></div>
-          </div>
-        </div>
-      </div>
-</body>
 
+    <div class="container conteudo-escondido" id="conteudo">
+        <!-- Informações de Contato -->
+        <h2>Informações de Contato</h2>
+        <p>Número de telefone: (11) 98444-0434</p>
+        <p>Endereço de e-mail: contato@productoix49p-34.shop</p>
+        
+
+        <!-- Informações da Empresa -->
+        <h2>Empresa</h2>
+        <p>Nome da Empresa: J B CONTEUDO Inc.</p>
+        <p>Endereço da Empresa: RUA ITACEMA, 217 - São Paulo, SP - CEP: 04530-050</p>
+        <p>CNPJ: 26.297.863/0001-66</p>
+
+        <!-- Imagem do Produto -->
+<img src="https://i.postimg.cc/C1v4SvHS/Caneta-Reparadorade-Riscos-Nano-Fix-Compre1e-Leve26-1024x.jpg" alt="Produto" class="imagem-produto">
+
+        <!-- Preço em Moeda Local -->
+        <h2>Preço</h2>
+        <p>Preço: R$ 100,00</p>
+        <!-- Botão de Compra -->
+<button onclick="comprarProduto()">Comprar Agora</button>
+
+        <style>
+    /* ... (seu estilo anterior) */
+
+    .imagem-produto {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+        <script>
+    function comprarProduto() {
+        // Aqui você pode adicionar o código para realizar a compra
+        // Por exemplo, redirecionar para uma página de pagamento ou exibir uma mensagem de confirmação
+        alert('Produto comprado com sucesso!');
+    }
+</script>
+
+
+
+        <!-- Termos e Condições, Informações de Remessa -->
+        <h2>Termos e Condições</h2>
+        <p>Leia nossos <a href="https://lojaexpressabr.com/pages/termos-e-condicoes-de-uso">Termos e Condições</a>.</p>
+
+        <h2>Informações de Remessa</h2>
+        <p>Detalhes sobre remessa podem ser encontrados <a href="https://lojaexpressabr.com/pages/rastrear-pedido">aqui</a>.</p>
+
+        <!-- Políticas -->
+        <h2>Políticas</h2>
+        <p>Consulte nossa <a href="https://lojaexpressabr.com/pages/politicas-de-privacidade">Política de Privacidade</a>.</p>
+        <p>Leia nossa <a href="https://lojaexpressabr.com/pages/prazo-de-entrega">Política de Retorno</a>.</p>
+        <p>Detalhes sobre reembolso estão disponíveis em <a href="https://lojaexpressabr.com/pages/politica-detroca-devolucao-e-reembolso">Reembolso</a>.</p>
+    </div>
+
+    <script>
+        function redirecionar() {
+            window.location.href = 'https://lojaexpressabr.com/'; // Substitua pelo URL da outra página real
+        }
+
+        // Atraso automático abaixo do botão após 5 segundos (5000 milissegundos)
+        setTimeout(function() {
+            document.getElementById('conteudo').style.display = 'block';
+        }, 5000);
+    </script>
+</body>
 </html>
